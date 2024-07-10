@@ -72,6 +72,7 @@
     border: none;
     cursor: pointer;
 }
+
 #hero .hero-content .btn-container .contact-btn:hover {
     background-color: wheat;
     color: black;
@@ -193,6 +194,7 @@
     text-align: center;
     cursor: pointer;
 }
+
 .whyDevelopment .container .card .info .btn:hover {
     background-color: wheat;
     color: black;
@@ -384,9 +386,11 @@ label {
     gap: 13px;
     cursor: pointer;
 }
-#submit{
+
+#submit {
     cursor: pointer;
 }
+
 .need-support {
 
     display: flex;
@@ -475,30 +479,32 @@ label {
 /* i need support section ends here */
 /* footer section starts here */
 .footer {
-   border-radius: 10px;
+    border-radius: 10px;
 
-background: rgba(13, 19, 33, 0.03);
-display: flex;
-justify-content: center;
-padding: 19px 80px 19px 80px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    padding: 19px 80px 19px 80px;
 }
+
 .footer .content {
-display: flex;
-justify-content:space-between;
-width: 695px;
-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 695px;
+    height: 20px;
 
 }
 
-.footer .content .title{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 12px;
-font-weight: 600;
-line-height: 14px;
-letter-spacing: 0%;
-text-align: center;
+.footer .content .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
 }
+
 .footer .title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -507,6 +513,12 @@ text-align: center;
     line-height: 13px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.footer .content .icons a img {
+    width: 21px;
+    height: 21px;
+
 }
 
 /* footer section ends here */
