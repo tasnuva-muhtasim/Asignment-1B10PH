@@ -201,54 +201,159 @@
 /* Why web development ends here  */
 
 /* my inspiration section starts here   */
-.my-inspiration{
+.my-inspiration {
     display: flex;
     align-items: center;
     flex-direction: column;
     /* width: 695px;
 height: 374px; */
 }
-.my-inspiration .title{
+
+.my-inspiration .title {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 19px;
-font-weight: 800;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 53px;
+    font-family: Azeret Mono;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 14px;
+}
+
+.my-inspiration .subtitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 21px;
+}
+
+.my-inspiration .video {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+    width: 695px;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.my-inspiration .video iframe {
+    border-radius: 16px;
+
+    background: url(https://youtu.be/YicpcicZRYg?si=Rz8-ARHCmbuVoeCI);
+    width: 656px;
+    height: 335px;
+}
+
+/* my inspiration section ends here  */
+/* my current target ends HERE */
+.current-target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.current-target .info {
+    width: 519px;
+    height: 68px;
+    margin-bottom: 48px;
+
+
+}
+
+.current-target .info .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 14px;
+}
+
+.current-target .info .subtitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 21px;
+
+}
+.current-target .card-container{
+    width: 695px;
+    display: flex;
+    gap:14px;
+    margin-bottom: 67px;
+}
+.current-target .card-container .card{
+    border-radius: 10px;
+
+background: rgba(255, 76, 30, 0.05);
+width: 220px;
+height: 180px;
+padding-left: 24px ;
+padding-right: 24px;
+}
+.current-target .card-container .card img{
+width: 34px;
+height: 34px;
+margin-top: 24px;
 margin-bottom: 14px;
 }
-.my-inspiration .subtitle{
-    color: rgb(13, 19, 33);
+.current-target .card-container .card  h1{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 800;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 5px;
+}
+.current-target .card-container .card  p{
+color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 10px;
 font-weight: 400;
 line-height: 15px;
 letter-spacing: 0%;
-text-align: center;
+text-align: left;
 opacity: 0.7;
-margin-bottom: 21px;
-}
-.my-inspiration .video{
-    box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 10px;
-    width: 695px;
-height: 374px;
-display: flex;
-justify-content: center;
-align-items: center;
+margin-bottom: 14px;
 
 }
-.my-inspiration .video iframe
-{
-    border-radius: 16px;
-
-background: url(https://youtu.be/YicpcicZRYg?si=Rz8-ARHCmbuVoeCI);
-width: 656px;
-height: 335px;
+.current-target .card-container .card  a{
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 700;
+line-height: 11px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
 }
- /* my inspiration section ends here  */
- /* my current target ends HERE */
- /* my current target ends HERE */
+#css{
+    background: rgba(0, 76, 232, 0.05);
+}
+#js{
+    background: rgba(255, 223, 0, 0.05)
+}
+/* my current target ends HERE */
