@@ -475,18 +475,30 @@ label {
 /* i need support section ends here */
 /* footer section starts here */
 .footer {
-    padding: 19px 80px 19px 80px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 275px;
-    background: rgba(13, 19, 33, 0.03);
-    padding-left: 85px;
-    padding-left: 85px;
+   border-radius: 10px;
+
+background: rgba(13, 19, 33, 0.03);
+display: flex;
+justify-content: center;
+padding: 19px 80px 19px 80px;
+}
+.footer .content {
+display: flex;
+justify-content:space-between;
+width: 695px;
+height: 20px;
+
 }
 
+.footer .content .title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+}
 .footer .title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
