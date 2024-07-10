@@ -4,7 +4,44 @@
     margin: 0px;
     padding: 0px;
 }
+nav{
+display: flex;
+background: rgb(255, 255, 255);
+justify-content: space-around;
+align-items: center;
+margin: 30px;
+}
+nav h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 17px;
+font-weight: 800;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+nav button{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 5px;
+padding: 11px 13px 11px 13px;
 
+
+opacity: 0.8;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+nav button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
 #hero {
     height: 641px;
     background-image: url("../assets/Hero-bg.png");
@@ -14,6 +51,8 @@
     justify-content: center;
     align-items: center;
     color: black;
+    border-style: dashed;
+    border-color: rgba(160, 159, 159, 0.555);
 }
 
 #hero .hero-content {
@@ -23,7 +62,6 @@
     flex-direction: column;
     width: 608px;
     height: 350px;
-
 }
 
 #hero .hero-content img {
