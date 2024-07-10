@@ -70,6 +70,12 @@
     text-align: center;
     box-shadow: none;
     border: none;
+    cursor: pointer;
+}
+#hero .hero-content .btn-container .contact-btn:hover {
+    background-color: wheat;
+    color: black;
+    transform: scale(1.1);
 }
 
 /* Banner section ends here  */
@@ -185,6 +191,12 @@
     line-height: 14px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
+}
+.whyDevelopment .container .card .info .btn:hover {
+    background-color: wheat;
+    color: black;
+    transform: scale(1.1);
 }
 
 .whyDevelopment .container .card img {
@@ -370,8 +382,11 @@ height: 374px; */
 label {
     display: flex;
     gap: 13px;
+    cursor: pointer;
 }
-
+#submit{
+    cursor: pointer;
+}
 .need-support {
 
     display: flex;
