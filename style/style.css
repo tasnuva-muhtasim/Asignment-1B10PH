@@ -296,64 +296,159 @@ height: 374px; */
     margin-bottom: 21px;
 
 }
-.current-target .card-container{
+
+.current-target .card-container {
     width: 695px;
     display: flex;
-    gap:14px;
+    gap: 14px;
     margin-bottom: 67px;
 }
-.current-target .card-container .card{
+
+.current-target .card-container .card {
     border-radius: 10px;
 
-background: rgba(255, 76, 30, 0.05);
-width: 220px;
-height: 180px;
-padding-left: 24px ;
-padding-right: 24px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 220px;
+    height: 180px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
-.current-target .card-container .card img{
-width: 34px;
-height: 34px;
-margin-top: 24px;
-margin-bottom: 14px;
+
+.current-target .card-container .card img {
+    width: 34px;
+    height: 34px;
+    margin-top: 24px;
+    margin-bottom: 14px;
 }
-.current-target .card-container .card  h1{
-color: rgb(13, 19, 33);
+
+.current-target .card-container .card h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.current-target .card-container .card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 14px;
+
+}
+
+.current-target .card-container .card a {
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+#css {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#js {
+    background: rgba(255, 223, 0, 0.05)
+}
+
+/* my current target ends HERE */
+/* i need support section starts here */
+label{
+    display: flex;
+    gap: 13px;
+}
+.need-support{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.need-support .content{
+    align-self: center;
+    width: 680px;
+    height: 180px;
+    background-image: url("../assets/handshake.jpg");
+    background-size:contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+
+ background-color: rgba(0, 0, 0, 0.3);
+ background-blend-mode: overlay;
+}
+.need-support .content .title{
+color: rgb(255, 255, 255);
 font-family: Azeret Mono;
-font-size: 14px;
-font-weight: 800;
-line-height: 19px;
+font-size: 19px;
+font-weight: 700;
+line-height: 21px;
 letter-spacing: 0%;
-text-align: left;
-margin-bottom: 5px;
+text-align: center;
+padding-top: 38px;
+margin-bottom: 10px;
 }
-.current-target .card-container .card  p{
-color: rgb(13, 19, 33);
+.need-support .content .subtitle{
+color: rgb(255, 255, 255);
 font-family: Azeret Mono;
 font-size: 10px;
 font-weight: 400;
-line-height: 15px;
+line-height: 16px;
 letter-spacing: 0%;
-text-align: left;
+text-align: center;
 opacity: 0.7;
 margin-bottom: 14px;
-
 }
-.current-target .card-container .card  a{
+#supporttext {
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 5px;
+width: 350px;
+height: 34px;
 background: rgb(255, 255, 255);
-color: rgb(13, 19, 33);
+font-color: rgba(13, 19, 33, 0.4);
 font-family: Azeret Mono;
 font-size: 10px;
-font-weight: 700;
+font-weight: 400;
 line-height: 11px;
 letter-spacing: 0%;
 text-align: left;
-text-decoration-line: underline;
+padding: 11px 12px 11px 12px;
+
+
 }
-#css{
-    background: rgba(0, 76, 232, 0.05);
+
+#submit{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 600;
+line-height: 12px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 5px;
+padding: 11px 12px 11px 12px;
+background: rgb(255, 255, 255);
+border: none;
 }
-#js{
-    background: rgba(255, 223, 0, 0.05)
-}
-/* my current target ends HERE */
+/* i need support section ends here */
