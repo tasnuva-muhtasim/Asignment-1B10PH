@@ -367,23 +367,25 @@ height: 374px; */
 
 /* my current target ends HERE */
 /* i need support section starts here */
-label{
+label {
     display: flex;
     gap: 13px;
 }
-.need-support{
-   
+
+.need-support {
+
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 48px;
 }
-.need-support .content{
+
+.need-support .content {
     align-self: center;
     width: 680px;
     height: 180px;
     background-image: url("../assets/handshake.jpg");
-    background-size:contain;
+    background-size: contain;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -394,84 +396,90 @@ label{
     background-size: cover;
     border-radius: 16px;
 
- background-color: rgba(0, 0, 0, 0.3);
- background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
 }
-.need-support .content .title{
-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 19px;
-font-weight: 700;
-line-height: 21px;
-letter-spacing: 0%;
-text-align: center;
-padding-top: 38px;
-margin-bottom: 10px;
+
+.need-support .content .title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 38px;
+    margin-bottom: 10px;
 }
-.need-support .content .subtitle{
-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 10px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin-bottom: 14px;
+
+.need-support .content .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 14px;
 }
+
 #supporttext {
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 5px;
-width: 350px;
-height: 34px;
-background: rgb(255, 255, 255);
-font-color: rgba(13, 19, 33, 0.4);
-font-family: Azeret Mono;
-font-size: 10px;
-font-weight: 400;
-line-height: 11px;
-letter-spacing: 0%;
-text-align: left;
-padding: 11px 12px 11px 12px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 5px;
+    width: 350px;
+    height: 34px;
+    background: rgb(255, 255, 255);
+    font-color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 12px 11px 12px;
 
 
 }
 
-#submit{
+#submit {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 12px;
-font-weight: 600;
-line-height: 12px;
-letter-spacing: 0%;
-text-align: center;
-border-radius: 5px;
-padding: 11px 12px 11px 12px;
-background: rgb(255, 255, 255);
-border: none;
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 11px 12px 11px 12px;
+    background: rgb(255, 255, 255);
+    border: none;
 }
+
 /* i need support section ends here */
 /* footer section starts here */
-.footer{
+.footer {
     padding: 19px 80px 19px 80px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
-    
-background: rgba(13, 19, 33, 0.03);
-padding-left: 80px;
-padding-left: 80px;
+    gap: 275px;
+    background: rgba(13, 19, 33, 0.03);
+    padding-left: 85px;
+    padding-left: 85px;
 }
-.footer .title{
+
+.footer .title {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 12px;
-font-weight: 600;
-line-height: 13px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
 }
+
 /* footer section ends here */
