@@ -512,6 +512,12 @@ label {
     padding: 11px 12px 11px 12px;
     background: rgb(255, 255, 255);
     border: none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: burlywood;
+    color:black;
+    transform: scale(1.1);
 }
 
 /* i need support section ends here */
