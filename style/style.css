@@ -133,8 +133,9 @@
     margin-right: 59px;
     height: 204px;
     width: 577px;
-    gap:59px;
+    gap: 59px;
 }
+
 #secondcard {
     display: flex;
     justify-content: center;
@@ -142,54 +143,110 @@
     flex-direction: row;
     border-radius: 10px;
 
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     margin-left: 59px;
     margin-right: 59px;
     height: 204px;
     width: 577px;
-    gap:59px;
+    gap: 59px;
 }
-.whyDevelopment .container .card .info .title1{
-color: rgba(13, 19, 33, 0.7);
+
+.whyDevelopment .container .card .info .title1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.whyDevelopment .container .card .info .description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 19px;
+}
+
+.whyDevelopment .container .card .info .btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 7px 12px 7px 12px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.whyDevelopment .container .card img {
+    width: 157px;
+    height: 132px;
+}
+
+.whyDevelopment .container .card .info {
+
+    width: 290px;
+    height: 133px;
+}
+
+/* Why web development ends here  */
+
+/* my inspiration section starts here   */
+.my-inspiration{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 695px;
+height: 374px; */
+}
+.my-inspiration .title{
+    color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 14px;
-font-weight: 700;
-line-height: 21px;
+font-size: 19px;
+font-weight: 800;
+line-height: 22px;
 letter-spacing: 0%;
-text-align: left;
-margin-bottom: 10px;
+text-align: center;
+margin-top: 53px;
+margin-bottom: 14px;
 }
-.whyDevelopment .container .card .info .description{
-color: rgb(13, 19, 33);
+.my-inspiration .subtitle{
+    color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 10px;
 font-weight: 400;
 line-height: 15px;
 letter-spacing: 0%;
-text-align: left;
-margin-bottom: 19px;
-}
-.whyDevelopment .container .card .info .btn{
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-padding: 7px 12px 7px 12px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 12px;
-font-weight: 600;
-line-height: 14px;
-letter-spacing: 0%;
 text-align: center;
+opacity: 0.7;
+margin-bottom: 21px;
 }
-.whyDevelopment .container .card img{
-    width: 157px;
-    height: 132px;
-}
-.whyDevelopment .container .card .info{
+.my-inspiration .video{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 10px;
+    width: 695px;
+height: 374px;
+display: flex;
+justify-content: center;
+align-items: center;
 
-width: 290px;
-height: 133px;
 }
+.my-inspiration .video iframe
+{
+    border-radius: 16px;
 
-/* Why web development ends here  */
+background: url(https://youtu.be/YicpcicZRYg?si=Rz8-ARHCmbuVoeCI);
+width: 656px;
+height: 335px;
+}
+ /* my inspiration section ends here  */
